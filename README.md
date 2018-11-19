@@ -19,3 +19,6 @@ I can see a list of my notes, where each note is abbreviated to the first 20 cha
 So that I can see all the information in the note,
 I can see the full text of an individual note on its own page.
 
+### Source:
+
+* https://github.com/makersacademy/course/blob/master/further_javascript/00_challenge_track.md
