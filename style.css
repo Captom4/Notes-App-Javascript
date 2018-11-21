@@ -28,3 +28,7 @@ ul.note_list {
 .hidden {
     display: none;
 }
+
+textarea {
+    resize: none;
+}

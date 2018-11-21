@@ -7,24 +7,24 @@
 </head>
 
 <body>
-    <header>
-        <div id="home">
-            <h1>Notes</h1>
-        </div>
-    </header>
+<header>
+    <div id="home">
+        <h1>Notes</h1>
+    </div>
+</header>
 
-    <section class="notepad">
-        <button onClick="" id="btn_new_note">Create a new note</button>
-        <form id="form_new_note">
-            <textarea id="txt_note" name="note-text" rows="10" cols="100" placeholder="Enter note here"></textarea><br>
-            <button onClick="add_note()" id="btn_save_note">Save Note</button>
-        </form>
-    </section>
-    <section class="list">
-        <ul id="note_list">
+<section class="notepad">
+    <button onClick="toggle_note_area()" id="btn_new_note">Create a new note</button>
+    <form id="form_new_note" class="hidden">
+        <textarea id="txt_note" name="note-text" rows="10" cols="100" placeholder="Enter note here"></textarea><br>
+        <button type="button" onClick="add_note()" id="btn_save_note">Save Note</button>
+    </form>
+</section>
+<section class="list">
+    <ul id="note_list">
 
-        </ul>
-    </section>
+    </ul>
+</section>
 
 </body>
 </html>
